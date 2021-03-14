@@ -12,7 +12,7 @@ export class DomListener {
     initDomListener() {
         this.listeners.forEach(listener => {
             const method = getMethodName(listener)
-            this[method] = this[method].bind()
+            this[method] = this[method].bind(this)
             this.$root.on(listener, this[method])
         })
     }

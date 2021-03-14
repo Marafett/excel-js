@@ -12,7 +12,8 @@
     "comma-dangle": "off",
     "object-curly-spacing": "off",
     "require-jsdoc": "off",
-    "space-before-function-paren": "off"
+    "space-before-function-paren": "off",
+    "max-len": "off"
   },
   "extends": [
     "eslint:recommended", "google"
